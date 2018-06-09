@@ -1,5 +1,5 @@
 # 284-Labs-1-3
-training a single layer perceptron model on sparse data. 
+Training a single layer perceptron model on sparse data. 
 
 ###
 
