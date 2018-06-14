@@ -6,9 +6,8 @@ Training a single layer perceptron model on sparse data.
 <ol>
   <li><strong>Lab 1</strong> - just simple batch gradient descent.
     <ul>
-      <li>Sequential - no multithreading, just sequential C++ code</li>
-      <li>Vienna - multithreaded code using the BLAS library, <a href="http://viennacl.sourceforge.net/">ViennaCL</a>
-        <br> If I were to do this again, I would use <a href="http://eigen.tuxfamily.org">Eigen</a>, which I seems to have better <a href="https://computing.llnl.gov/tutorials/openMP/">OpenMP</a> performance.
+      <li>Sequential - no multithreading, just sequential C++ code</li>.
+      <li>Vienna - multithreaded code using the BLAS library, <a href="http://viennacl.sourceforge.net/">ViennaCL</a>. If I were to do this again, I would use <a href="http://eigen.tuxfamily.org">Eigen</a>, which I seems to have better <a href="https://computing.llnl.gov/tutorials/openMP/">OpenMP</a> performance.
       </li>
     </ul>
   </li>
