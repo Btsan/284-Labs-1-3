@@ -23,3 +23,12 @@ Lab dataset is the [w8a dataset](https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/
   <li><a href="https://computing.llnl.gov/tutorials/openMP/">OpenMP</a></li>
   <li><a href="http://viennacl.sourceforge.net/">ViennaCL</a></li>
 </ul>
+
+## Mutations
+
+I tried implementing a neuroevolution algorithm for updating model parameters.
+It's insignificant in my code, since the model isn't *deep* enough to have a complicate error gradient, but neuroevolution does run about twice as fast as gradient descent.
+
+However, gradient descent can achieve >90% accuracy, whereas this neuroevolution algorithm achieves ~60%, even after 10 times more training. Supposedly, [evolutionary strategies are better suited for reinforcement learning settings, than supervised learning](https://blog.openai.com/evolution-strategies/). That said, a [safe mutation algorithm](https://arxiv.org/pdf/1712.06563.pdf) might still have interesting results (*todo*). 
+
+Neuroevolution.cpp is not multithreaded, like the other files in this repo, since I just wanted to quickly see if it would work.
